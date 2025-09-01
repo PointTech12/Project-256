@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Let's you in - Sign In</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="SG.css" />
+    <link rel="stylesheet" href="SignUp_1.css" />
+  </head>
+  <body>
+    <main class="element-dark-lets-in">
+      <div class="div">
+        <div class="auto-layout-vertical">
+          <header class="theme-dark-component">
+            <nav class="auto-layout">
+              <button type="button" class="back-button" aria-label="Go back">
+                <img class="iconly-light-outline" src="img/Arrow_Left.png" alt="" />
+              </button>
+            </nav>
+          </header>
+          <h1 class="text-wrapper">Let's you in</h1>
+          <section class="auto-layout-vertical-2">
+            <div class="auto-layout-vertical-3" role="group" aria-label="Social login options">
+              <button type="button" class="type-login-type" aria-label="Continue with Facebook">
+                <div class="auto-layout-2">
+                  <div class="frame" aria-hidden="true">
+                    <img class="vector" src="img/Facebook_Icon.png" alt="" />
+                  </div>
+                  <span class="text-wrapper-2">Continue with Facebook</span>
+                </div>
+              </button>
+              <button type="button" class="type-login-type" aria-label="Continue with Google">
+                <div class="auto-layout-2">
+                  <div class="overlap-group-wrapper" aria-hidden="true">
+                    <div class="overlap-group">
+                      <img class="vector-4" src="img/Google_Icon.png" alt="" />
+                    </div>
+                  </div>
+                  <span class="text-wrapper-2">Continue with Google</span>
+                </div>
+              </button>
+              <button type="button" class="type-login-type" aria-label="Continue with Apple">
+                <div class="auto-layout-2">
+                  <div class="group-wrapper" aria-hidden="true">
+                    <div class="group">
+                      <img class="vector-5" src="img/Apple_Icon.png" alt="" />
+                    </div>
+                  </div>
+                  <span class="text-wrapper-2">Continue with Apple</span>
+                </div>
+              </button>
+            </div>
+            <div class="auto-layout-3" role="separator" aria-label="or">
+              <div class="theme-dark-divider" aria-hidden="true"></div>
+              <span class="text-wrapper-3">or</span>
+              <div class="theme-dark-divider-2" aria-hidden="true"></div>
+            </div>
+            <div class="type-button-type">
+              <button type="button" class="button">Sign in with password</button>
+            </div>
+          </section>
+          <footer class="auto-layout-4">
+            <span class="text-wrapper-4">Don't have an account?</span>
+            <button id="signup-btn" type="button" class="text-wrapper-5">Sign up</button>
+          </footer>
+          
+        </div>
+        <div class="type-default" role="banner" aria-label="Status bar">
+          <time class="text-wrapper-6">9:41</time>
+          <div class="group-3" aria-label="WiFi signal"></div>
+          <div class="div-wrapper" aria-label="Battery indicator">
+            <div class="group-4">
+              <div class="vector-wrapper">
+                <img class="vector-6" src="img/Battery_Icon.png" alt="" />
+              </div>
+              <img class="vector-7" src="img/image.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <script>
+      function goToSignUp() {
+        window.location.href = "SignUp_2.html";
+      }
+      document.getElementById("signup-btn").addEventListener("click", goToSignUp);
+    </script>
+  </body>
+</html>

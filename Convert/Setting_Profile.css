@@ -1,0 +1,272 @@
+.element-dark-settings {
+    background-color: #181a20;
+    display: grid;
+    justify-items: center;
+    align-items: start;
+    width: 100vw;
+  }
+  
+  .element-dark-settings .div {
+    background-color: var(--darkdark-1);
+    width: 428px;
+    height: 926px;
+    position: relative;
+  }
+  
+  .element-dark-settings .auto-layout-vertical {
+    flex-direction: column;
+    width: 428px;
+    height: 882px;
+    gap: 28px;
+    padding: 24px 24px 48px;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .element-dark-settings .auto-layout-vertical-2 {
+    align-items: flex-start;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .element-dark-settings .theme-dark-component {
+    display: flex;
+    height: 48px;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+  }
+  
+  .element-dark-settings .auto-layout {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    margin-top: -2.50px;
+    margin-bottom: -2.50px;
+  }
+  
+  .element-dark-settings .iconly-light-outline {
+    position: relative;
+    width: 28px;
+    height: 28px;
+  }
+  
+  .element-dark-settings .title-section {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--h4-bold-font-family);
+    font-weight: var(--h4-bold-font-weight);
+    color: var(--others-white);
+    font-size: var(--h4-bold-font-size);
+    letter-spacing: var(--h4-bold-letter-spacing);
+    line-height: var(--h4-bold-line-height);
+    font-style: var(--h4-bold-font-style);
+  }
+  
+  .element-dark-settings .auto-layout-vertical-3 {
+    align-items: center;
+    gap: 36px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .element-dark-settings .auto-layout-2 {
+    gap: 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .element-dark-settings .text-wrapper {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--body-xlarge-semibold-font-family);
+    font-weight: var(--body-xlarge-semibold-font-weight);
+    color: var(--others-white);
+    font-size: var(--body-xlarge-semibold-font-size);
+    letter-spacing: var(--body-xlarge-semibold-letter-spacing);
+    line-height: var(--body-xlarge-semibold-line-height);
+    font-style: var(--body-xlarge-semibold-font-style);
+  }
+  
+  .element-dark-settings .state-disabled-theme {
+    position: relative;
+    width: 44px;
+    height: 24px;
+    background-color: var(--darkdark-2);
+    border-radius: 1000px;
+    overflow: hidden;
+  }
+  
+  .element-dark-settings .frame {
+    width: 24px;
+    height: 24px;
+    background-color: var(--others-white);
+    border-radius: 1000px;
+    border: 2px solid;
+    border-color: var(--darkdark-2);
+  }
+  
+  .element-dark-settings .state-enabled-theme {
+    position: relative;
+    width: 44px;
+    height: 24px;
+    background-color: var(--primary-500);
+    border-radius: 1000px;
+    overflow: hidden;
+  }
+  
+  .element-dark-settings .frame-2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    left: 20px;
+    background-color: var(--others-white);
+    border-radius: 1000px;
+    border: 2px solid;
+    border-color: var(--primary-500);
+  }
+  
+  .element-dark-settings .iconly-light-arrow {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-image: url(./img/arrow-right-2.svg);
+    background-size: 100% 100%;
+  }
+  
+  .element-dark-settings .type-button-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 18px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--darkdark-3);
+    border-radius: 100px;
+  }
+  
+  .element-dark-settings .button {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    flex: 1;
+    height: 22px;
+    margin-top: -1.00px;
+    font-family: var(--body-large-bold-font-family);
+    font-weight: var(--body-large-bold-font-weight);
+    color: var(--others-white);
+    font-size: var(--body-large-bold-font-size);
+    text-align: center;
+    letter-spacing: var(--body-large-bold-letter-spacing);
+    line-height: var(--body-large-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--body-large-bold-font-style);
+  }
+  
+  .element-dark-settings .type-default {
+    position: absolute;
+    width: 428px;
+    height: 44px;
+    top: 0;
+    left: 0;
+  }
+  
+  .element-dark-settings .text-wrapper-2 {
+    position: absolute;
+    height: 23px;
+    top: 10px;
+    left: 23px;
+    font-family: var(--body-large-semibold-font-family);
+    font-weight: var(--body-large-semibold-font-weight);
+    color: var(--others-white);
+    font-size: var(--body-large-semibold-font-size);
+    letter-spacing: var(--body-large-semibold-letter-spacing);
+    line-height: var(--body-large-semibold-line-height);
+    white-space: nowrap;
+    font-style: var(--body-large-semibold-font-style);
+  }
+  
+  .element-dark-settings .group {
+    position: absolute;
+    width: 18px;
+    height: 10px;
+    top: 18px;
+    left: 334px;
+  }
+  
+  .element-dark-settings .group-2 {
+    position: absolute;
+    width: 15px;
+    height: 11px;
+    top: 17px;
+    left: 357px;
+    background-image: url(./img/union.svg);
+    background-size: 100% 100%;
+  }
+  
+  .element-dark-settings .group-wrapper {
+    position: absolute;
+    width: 27px;
+    height: 13px;
+    top: 16px;
+    left: 378px;
+  }
+  
+  .element-dark-settings .group-3 {
+    position: relative;
+    height: 13px;
+  }
+  
+  .element-dark-settings .overlap-group {
+    position: absolute;
+    width: 25px;
+    height: 13px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/vector-2.svg);
+    background-size: 100% 100%;
+  }
+  
+  .element-dark-settings .vector {
+    position: absolute;
+    width: 20px;
+    height: 8px;
+    top: 2px;
+    left: 2px;
+  }
+  
+  .element-dark-settings .img {
+    position: absolute;
+    width: 1px;
+    height: 4px;
+    top: 5px;
+    left: 26px;
+  }
+  

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Station Finder App</title>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="SG.css" />
+    <link rel="stylesheet" href="Dashboard_1.css" />
+  </head>
+  <body>
+    <main class="element-dark-user">
+      <div class="div">
+        <header class="type-default">
+          <time class="text-wrapper-16">9:41</time>
+          <img class="group" src="img/Signal_Icon.png" alt="Signal strength indicator" />
+          <div class="group-2" aria-label="WiFi indicator"></div>
+          <div class="group-wrapper">
+            <div class="group-3">
+              <div class="vector-wrapper"><img class="vector-2" src="img/Battery_Icon.png" alt="Battery level" /></div>
+              <!-- <img class="vector-3" src="img/vector-3.svg" alt="Battery indicator" /> -->
+            </div>
+          </div>
+        </header>
+        <section class="overlap">
+          <div class="auto-layout-vertical">
+            <div class="auto-layout-vertical-2">
+              <div class="state-active-search" role="search">
+                <img class="img" src="img/Search_Icon.png" alt="Search icon" />
+                <label class="search" for="station-search">Station</label>
+                <input type="text" id="station-search" class="search-input" placeholder="Station" />
+                <button type="button" class="filter-button" aria-label="Filter options">
+                  <img class="img" src="img/Filter.png" alt="Filter icon" />
+                </button>
+              </div>
+              <div class="theme-dark-divider" role="separator"></div>
+            </div>
+          </div>
+          <article class="auto-layout">
+            <div class="auto-layout-vertical-3">
+              <header class="station-name-rating">
+                <span>Station Name</span>
+                <span>Rating Num</span>
+              </header>
+              <div class="station-details">Station Details..<br />....<br />...<br />...</div>
+            </div>
+          </article>
+        </section>
+        <section class="chart">
+          <img class="line" src="img/Horizontal_Line.png" alt="Chart grid line" />
+          <div class="overlap-2">
+            <img class="line-2" src="img/Horizontal_Line.png" alt="Chart grid line" />
+            <img class="line-3" src="img/Horizontal_Line.png" alt="Chart grid line" />
+            <img class="line-4" src="img/Horizontal_Line.png" alt="Chart grid line" />
+            <img class="line-5" src="img/Horizontal_Line.png" alt="Chart grid line" />
+            <img class="line-6" src="img/Horizontal_Line.png" alt="Chart grid line" />
+            <div class="y-axis" role="img" aria-label="Y-axis values">
+              <div class="text-wrapper-4">$50K</div>
+              <div class="text-wrapper-5">$45K</div>
+              <div class="text-wrapper-6">$40K</div>
+              <div class="text-wrapper-7">$35K</div>
+              <div class="text-wrapper-8">$30K</div>
+            </div>
+            <div class="graph">
+              <div class="overlap-group-3">
+                <img class="graph-2" src="img/Graph_Icon.png" alt="Chart data visualization" />
+              </div>
+            </div>
+            <div class="dot" role="img" aria-label="Data point indicator"><div class="dot-2"></div></div>
+          </div>
+          <div class="x-axis" role="img" aria-label="X-axis time values">
+            <div class="text-wrapper-4">6 am</div>
+            <div class="text-wrapper-9">3 am</div>
+            <div class="text-wrapper-10">12 am</div>
+            <div class="text-wrapper-11">9 pm</div>
+            <div class="text-wrapper-12">6 pm</div>
+            <div class="text-wrapper-13">3 pm</div>
+            <div class="text-wrapper-14">12 pm</div>
+            <div class="text-wrapper-15">9 am</div>
+          </div>
+          <h2 class="text-wrapper-3">Crowd analysis according to database</h2>
+        </section>
+        <section class="overlap-group">
+          <div class="frame">
+            <article class="list">
+              <div class="lists">
+                <div class="map">
+                  <div class="overlap-group-2">
+                    <div class="overlap-group-3">
+                      <img class="graph-2" src="img/Map_Icon_2.png" alt="Chart data visualization" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h3 class="text-wrapper-3">Title</h3>
+            </article>
+          </div>
+          <nav class="active-menu-dark" role="navigation" aria-label="Main navigation">
+            <ul class="auto-layout-2">
+              <li class="auto-layout-vertical-4">
+                <a href="#home" class="nav-link active" aria-current="page">
+                  <img class="img-2" src="img/Home.png" alt="Home icon" />
+                  <span class="text-wrapper">Home</span>
+                </a>
+              </li>
+              <li class="auto-layout-vertical-4">
+                <a href="#navigate" class="nav-link">
+                  <img class="img-2" src="img/Explore.png" alt="Navigate icon" />
+                  <span class="text-wrapper-2">Navigate</span>
+                </a>
+              </li>
+              <li class="auto-layout-vertical-4">
+                <a href="#explore" class="nav-link">
+                  <img class="img-2" src="img/Location_Icon.png" alt="Explore icon" />
+                  <span class="text-wrapper-2">Explore</span>
+                </a>
+              </li>
+              <li class="auto-layout-vertical-4">
+                <a href="#saved" class="nav-link">
+                  <img class="img-2" src="img/Bookmark.png" alt="Saved icon" />
+                  <span class="text-wrapper-2">Saved</span>
+                </a>
+              </li>
+              <li class="auto-layout-vertical-4">
+                <a href="#profile" class="nav-link">
+                  <img class="img-2" src="img/Profile_Icon_1.png" alt="Profile icon" />
+                  <span class="text-wrapper-2">Profile</span>
+                </a>
+              </li>
+            </ul>
+            <div class="home-indicator"><img class="vector" src="img/vector-4.svg" alt="Home indicator" /></div>
+          </nav>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
