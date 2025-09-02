@@ -27,6 +27,9 @@
                   <img class="iconly-bold-edit" src="img/Edit_Square.png" alt="" />
                 </button>
               </div>
+              <div class="iconly-bold-edit-wrapper">
+                <div class="iconly-bold-edit"><div class="group"></div></div>
+              </div>
               <div class="form-fields">
                 <div class="status-default-type">
                   <input
@@ -113,5 +116,11 @@
         </div>
       </div>
     </main>
+    <script>
+      function goToLogIn() {
+        window.location.href = "LogIn.html";
+      }
+      document.getElementById("Continue-btn").addEventListener("click", goToLogIn);
+    </script>
   </body>
 </html>

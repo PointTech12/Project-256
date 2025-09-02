@@ -401,4 +401,22 @@
   .element-dark-fill-profile .label {
     display: none;
   }
+  .element-dark-profile .iconly-bold-edit-wrapper {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top: 78px;
+    left: 138px;
+    background-image: url(img/Empty_Avatar.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
   
+  .element-dark-profile .iconly-bold-edit {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: 105px;
+    left: 105px;
+    background-image: url(img/Edit_Square.png);
+  }
